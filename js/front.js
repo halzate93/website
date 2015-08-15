@@ -10,7 +10,7 @@ $(function () {
     utils();
     sliding();
     contactForm();
-    map();
+    //map();
     counters();
     parallax();
     demo();

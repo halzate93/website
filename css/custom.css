@@ -1,11 +1,7 @@
 /* your styles go here */
-#footer p.social a.external, #footer p.social a.email {
-    background-color: #4fbfa8;
-}
 
 #about .linkedin{
     border: 1px solid;
-    border-color: #4fbfa8;
     display: inline-block;
     width: 25px;
     height: 25px;

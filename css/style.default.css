@@ -28,9 +28,7 @@ NAVBAR
   text-transform: uppercase;
   border-top: solid 5px transparent;
 }
-.navbar ul.nav > li > a:hover {
-  border-top: solid 5px #4fbfa8;
-}
+
 @media (max-width: 767px) {
   .navbar ul.nav > li > a:hover {
     border-top: solid 5px transparent;
@@ -39,7 +37,6 @@ NAVBAR
 .navbar ul.nav > li.active > a,
 .navbar ul.nav > li.open > a {
   text-decoration: none !important;
-  border-top: solid 5px #4fbfa8;
   font-weight: bold;
 }
 @media (max-width: 767px) {
@@ -128,13 +125,9 @@ UNIVERSAL SECTION STYLES
   }
 }
 .text-gradient {
-  background: #13836c;
   color: #fff;
-  background-image: -webkit-linear-gradient(top, #13836c 0%, #45b59e 100%);
-  background-image: linear-gradient(to bottom, #13836c 0%, #45b59e 100%);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff13836c', endColorstr='#ff45b59e', GradientType=0);
 }
+
 .text-gradient h2 {
   border-color: #fff;
 }
@@ -251,63 +244,12 @@ ABOUT
   font-weight: 300;
   text-transform: uppercase;
 }
-.progress-bar-skill1 {
-  background-color: #d1d1d1 !important;
-  background-color: #9adacd !important;
+
+.skill-item .progress-bar{
+    background-color: #d1d1d1 !important;
 }
-.progress-striped .progress-bar-skill1 {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-striped .progress-bar-skill1 {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-bar-skill2 {
-  background-color: #c8c7c7 !important;
-  background-color: #87d3c4 !important;
-}
-.progress-striped .progress-bar-skill2 {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-striped .progress-bar-skill2 {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-bar-skill3 {
-  background-color: #bdbdbd !important;
-  background-color: #74cdba !important;
-}
-.progress-striped .progress-bar-skill3 {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-striped .progress-bar-skill3 {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-bar-skill4 {
-  background-color: #b3b2b2 !important;
-  background-color: #62c6b1 !important;
-}
-.progress-striped .progress-bar-skill4 {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-striped .progress-bar-skill4 {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-bar-skill5 {
-  background-color: #a9a8a8 !important;
-  background-color: #4fbfa8 !important;
-}
-.progress-striped .progress-bar-skill5 {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-striped .progress-bar-skill5 {
+
+.progress-striped .progress-bar {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
@@ -321,7 +263,6 @@ SERVICES
 .services .icon {
   font-size: 60px;
   text-align: center;
-  text-shadow: 5px 5px 0 #2d7b6b;
 }
 .services .heading {
   font-size: 30px;
@@ -350,8 +291,6 @@ WORKS / REFERENCES
   list-style-type: none;
   font-family: 'Roboto Slab', serif;
   margin-bottom: 30px;
-  border-top: solid 1px #4fbfa8;
-  border-bottom: solid 1px #4fbfa8;
   margin: 0 10px 20px;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -361,10 +300,7 @@ WORKS / REFERENCES
   display: inline-block;
   padding: 10px;
 }
-#filter li.active,
-#filter li:hover {
-  background: #4fbfa8;
-}
+
 #filter li.active a,
 #filter li:hover a {
   color: #fff;
@@ -400,8 +336,8 @@ WORKS / REFERENCES
 }
 .reference-item .reference {
   margin-bottom: 30px;
-  background: #4fbfa8;
 }
+
 .reference-item .reference a {
   display: block;
   position: relative;
@@ -666,61 +602,7 @@ div.wpcf7 div.wpcf7-response-output > ul {
 div.wpcf7 div.wpcf7-response-output > p + p {
   margin-top: 5px;
 }
-div.wpcf7 div.wpcf7-mail-sent-ok {
-  background-color: #dff0d8;
-  border-color: #d6e9c6;
-  color: #3c763d;
-}
-div.wpcf7 div.wpcf7-mail-sent-ok hr {
-  border-top-color: #c9e2b3;
-}
-div.wpcf7 div.wpcf7-mail-sent-ok .alert-link {
-  color: #2b542c;
-}
-div.wpcf7 div.wpcf7-mail-sent-ng {
-  background-color: #f2dede;
-  border-color: #ebccd1;
-  color: #a94442;
-}
-div.wpcf7 div.wpcf7-mail-sent-ng hr {
-  border-top-color: #e4b9c0;
-}
-div.wpcf7 div.wpcf7-mail-sent-ng .alert-link {
-  color: #843534;
-}
-div.wpcf7 div.wpcf7-spam-blocked {
-  background-color: #f2dede;
-  border-color: #ebccd1;
-  color: #a94442;
-}
-div.wpcf7 div.wpcf7-spam-blocked hr {
-  border-top-color: #e4b9c0;
-}
-div.wpcf7 div.wpcf7-spam-blocked .alert-link {
-  color: #843534;
-}
-div.wpcf7 div.wpcf7-validation-errors {
-  background-color: #f2dede;
-  border-color: #ebccd1;
-  color: #a94442;
-}
-div.wpcf7 div.wpcf7-validation-errors hr {
-  border-top-color: #e4b9c0;
-}
-div.wpcf7 div.wpcf7-validation-errors .alert-link {
-  color: #843534;
-}
-div.wpcf7 div.wpcf7-validation-errors {
-  background-color: #f2dede;
-  border-color: #ebccd1;
-  color: #a94442;
-}
-div.wpcf7 div.wpcf7-validation-errors hr {
-  border-top-color: #e4b9c0;
-}
-div.wpcf7 div.wpcf7-validation-errors .alert-link {
-  color: #843534;
-}
+
 div.wpcf7 .wpcf7-form p {
   display: none;
 }
@@ -764,18 +646,7 @@ FOOTER
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-#footer p.social a.facebook {
-  background-color: #4460ae;
-}
-#footer p.social a.gplus {
-  background-color: #c21f25;
-}
-#footer p.social a.instagram {
-  background-color: #cd4378;
-}
-#footer p.social a.email {
-  background-color: #4a7f45;
-}
+
 @media (max-width: 767px) {
   #footer p.social {
     text-align: center;
@@ -927,7 +798,6 @@ strong {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #4fbfa8;
 }
 .nav-tabs {
   border-bottom: 1px solid #dddddd;
@@ -953,7 +823,6 @@ strong {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
-  background-color: #4fbfa8;
 }
 .nav-tabs-justified > li > a {
   border-radius: 0;
@@ -1041,7 +910,6 @@ strong {
 .navbar-brand {
   float: left;
   padding: 29px 15px;
-  color: #4fbfa8;
   font-family: 'Roboto Slab', serif;
   font-size: 22px;
   text-transform: uppercase;
@@ -1146,12 +1014,9 @@ strong {
   background-color: #ffffff;
   border-bottom-color: #e6e6e6;
 }
-.navbar-default .navbar-brand {
-  color: #4fbfa8;
-}
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #3aa18c;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
@@ -1177,16 +1042,12 @@ strong {
   color: #cccccc;
   background-color: transparent;
 }
-.navbar-default .navbar-toggle {
-  border-color: #4fbfa8;
-}
+
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #ffffff;
 }
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #4fbfa8;
-}
+
 .navbar-default .navbar-collapse {
   border-color: #e6e6e6;
 }
@@ -1241,12 +1102,10 @@ body {
   background-color: #ffffff;
 }
 a {
-  color: #4fbfa8;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #348e7b;
   text-decoration: underline;
 }
 a:focus {
@@ -1295,19 +1154,16 @@ hr {
   border-radius: 0;
 }
 .btn-primary {
-  color: #4fbfa8;
   background-color: #ffffff;
-  border-color: #4fbfa8;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: #4fbfa8;
   background-color: #ebebeb;
-  border-color: #389985;
 }
+
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
@@ -1329,17 +1185,15 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
   background-color: #ffffff;
-  border-color: #4fbfa8;
 }
 .btn-primary .badge {
   color: #ffffff;
-  background-color: #4fbfa8;
 }
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active {
-  background: #4fbfa8;
   color: #ffffff;
 }
 .btn-lg {
@@ -1389,10 +1243,7 @@ label {
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 .form-control:focus {
-  border-color: #66afe9;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
 }
 .form-control::-moz-placeholder {
   color: #999999;
@@ -1426,14 +1277,12 @@ fieldset[disabled] .form-control {
 .pager li > a,
 .pager li > span {
   background-color: #ffffff;
-  border: 1px solid #4fbfa8;
   border-radius: 0;
 }
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
   color: #fff;
-  background-color: #4fbfa8;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
@@ -1454,7 +1303,6 @@ fieldset[disabled] .form-control {
   padding: 6px 12px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: #4fbfa8;
   background-color: #ffffff;
   border: 1px solid #dddddd;
 }
@@ -1462,21 +1310,9 @@ fieldset[disabled] .form-control {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  color: #4fbfa8;
-  background-color: #bfe8df;
   border-color: #dddddd;
 }
-.pagination > .active > a,
-.pagination > .active > span,
-.pagination > .active > a:hover,
-.pagination > .active > span:hover,
-.pagination > .active > a:focus,
-.pagination > .active > span:focus {
-  z-index: 2;
-  color: #ffffff;
-  background-color: #4fbfa8;
-  border-color: #4fbfa8;
-}
+
 .pagination > .disabled > span,
 .pagination > .disabled > span:hover,
 .pagination > .disabled > span:focus,
@@ -1556,19 +1392,11 @@ p {
 .text-italic {
   font-style: italic;
 }
-.text-primary {
-  color: #4fbfa8;
-}
-a.text-primary:hover {
-  color: #3aa18c;
-}
+
 .bg-primary {
   color: #fff;
-  background-color: #4fbfa8;
 }
-a.bg-primary:hover {
-  background-color: #3aa18c;
-}
+
 abbr[title],
 abbr[data-original-title] {
   border-bottom: 1px dotted #999999;
@@ -1577,7 +1405,6 @@ blockquote {
   padding: 11px 22px;
   margin: 0 0 22px;
   font-size: 16px;
-  border-left: 5px solid #4fbfa8;
 }
 blockquote footer,
 blockquote small,
@@ -1592,10 +1419,7 @@ blockquote small:before,
 blockquote .small:before {
   content: '\2014 \00A0';
 }
-.blockquote-reverse,
-blockquote.pull-right {
-  border-right: 5px solid #4fbfa8;
-}
+
 address {
   margin-bottom: 22px;
   line-height: 1.42857143;
@@ -1608,20 +1432,11 @@ address {
   -webkit-box-shadow: 0 0 0;
   box-shadow: 0 0 0;
 }
-.panel-primary {
-  border-color: #4fbfa8;
-}
+
 .panel-primary > .panel-heading {
   color: #ffffff;
-  background-color: #4fbfa8;
-  border-color: #4fbfa8;
 }
-.panel-primary > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #4fbfa8;
-}
-.panel-primary > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #4fbfa8;
-}
+
 .panel-primary .panel-title {
   font-weight: 300;
 }
@@ -1637,7 +1452,6 @@ a.badge:focus {
 }
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #4fbfa8;
   background-color: #ffffff;
 }
 .nav-pills > li > a > .badge {
@@ -1679,7 +1493,6 @@ a.list-group-item.active > .badge,
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background-color: #4fbfa8;
   border-radius: 0;
 }
 .tooltip-arrow {
@@ -1694,52 +1507,44 @@ a.list-group-item.active > .badge,
   left: 50%;
   margin-left: -5px;
   border-width: 5px 5px 0;
-  border-top-color: #4fbfa8;
 }
 .tooltip.top-left .tooltip-arrow {
   bottom: 0;
   left: 5px;
   border-width: 5px 5px 0;
-  border-top-color: #4fbfa8;
 }
 .tooltip.top-right .tooltip-arrow {
   bottom: 0;
   right: 5px;
   border-width: 5px 5px 0;
-  border-top-color: #4fbfa8;
 }
 .tooltip.right .tooltip-arrow {
   top: 50%;
   left: 0;
   margin-top: -5px;
   border-width: 5px 5px 5px 0;
-  border-right-color: #4fbfa8;
 }
 .tooltip.left .tooltip-arrow {
   top: 50%;
   right: 0;
   margin-top: -5px;
   border-width: 5px 0 5px 5px;
-  border-left-color: #4fbfa8;
 }
 .tooltip.bottom .tooltip-arrow {
   top: 0;
   left: 50%;
   margin-left: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #4fbfa8;
 }
 .tooltip.bottom-left .tooltip-arrow {
   top: 0;
   left: 5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #4fbfa8;
 }
 .tooltip.bottom-right .tooltip-arrow {
   top: 0;
   right: 5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #4fbfa8;
 }
 .progress {
   overflow: hidden;
@@ -1758,7 +1563,6 @@ a.list-group-item.active > .badge,
   line-height: 22px;
   color: #ffffff;
   text-align: center;
-  background-color: #4fbfa8;
   -webkit-box-shadow: none;
   box-shadow: none;
   -webkit-transition: width 0.6s ease;
@@ -1772,32 +1576,4 @@ a.list-group-item.active > .badge,
 .progress.active .progress-bar {
   -webkit-animation: progress-bar-stripes 2s linear infinite;
   animation: progress-bar-stripes 2s linear infinite;
-}
-.progress-bar-success {
-  background-color: #5cb85c !important;
-}
-.progress-striped .progress-bar-success {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-bar-info {
-  background-color: #5bc0de !important;
-}
-.progress-striped .progress-bar-info {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-bar-warning {
-  background-color: #f0ad4e !important;
-}
-.progress-striped .progress-bar-warning {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-bar-danger {
-  background-color: #d9534f !important;
-}
-.progress-striped .progress-bar-danger {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
