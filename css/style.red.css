@@ -173,6 +173,7 @@ INTRO
 #intro .item {
   height: 100%;
   background: url('../img/home.jpg') center center no-repeat;
+  background-position: 0 -150px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -764,18 +765,12 @@ FOOTER
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-#footer p.social a.facebook {
-  background-color: #4460ae;
+#footer p.social a.external,
+#footer p.social a.email
+{
+  background-color: #d94a4a;
 }
-#footer p.social a.gplus {
-  background-color: #c21f25;
-}
-#footer p.social a.instagram {
-  background-color: #cd4378;
-}
-#footer p.social a.email {
-  background-color: #4a7f45;
-}
+
 @media (max-width: 767px) {
   #footer p.social {
     text-align: center;
