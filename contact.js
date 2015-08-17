@@ -6,14 +6,20 @@
 
 var nodemailer = require('nodemailer');
 var wellknown = require('nodemailer-wellknown');
+var mailgun = require('nodemailer-mailgun-transport');
 
-var transporter = nodemailer.createTransport({
-    service: 'Gmail',
-    auth: {
-        user: 'gmail.user@gmail.com',
-        pass: 'userpass'
-    }
-});
+var auth = {
+  
+}
+
+var transport = nodemailer.createTransport(
+        mailgun({
+            auth: {
+                api_key: '',
+                domain: ''
+            }
+        })
+    );
 
 exports.sendMail = function(req, res) {
     var fullName = req.body.name + " " + req.body.surname;
@@ -27,11 +33,19 @@ exports.sendMail = function(req, res) {
                 '<p>' + req.body.phone + '</p>'
     };
 
-    transporter.sendMail(mailOptions, function(error, info) {
+    transport.sendMail(mailOptions, function(error, info) {
+        var result = {};
+        
         if (error) {
-            return console.log(error);
+            result['type'] = "Error";
+            result['message'] = "Couldn't send the mail request, please send it to halzate93@gmail.com";
+            console.log(error);
+        }else{
+            result['type'] = "Success";
+            result['message'] = "Thanks!, I'll get back to you soon.";
+            console.log('Message sent: ' + info.response);
         }
-        console.log('Message sent: ' + info.response);
-        res.send("Thanks!, I'll get back to you soon.");
+        
+        res.json(result);
     });
 };

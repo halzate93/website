@@ -445,7 +445,7 @@ function waypointsRefresh() {
 function contactForm() {
     $("#contact-form").submit(function () {
 
-	var url = "contact.php"; // the script where you handle the form input.
+	var url = "contact"; // the script where you handle the form input.
 
 	$.ajax({
 	    type: "POST",
