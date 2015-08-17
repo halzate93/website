@@ -11,3 +11,10 @@
     vertical-align: middle;
     text-align: center;
 }
+
+#bird{
+    position: relative;
+    top: 0px;
+    left: 300px;
+    width: 200px;
+}
