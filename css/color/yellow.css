@@ -1,0 +1,268 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/08/2015, 05:08:27 PM
+    Author     : halzate93
+*/
+
+// #AE830B
+// #DDA91A
+// #EBBF47
+// #876300
+// #FFDA74
+
+.navbar ul.nav > li > a:hover {
+    border-top-color: #DDA91A;
+}
+
+.navbar ul.nav > li.active > a,
+.navbar ul.nav > li.open > a {
+    border-top-color: #DDA91A;
+}
+
+.text-gradient {
+    background: #AE830B;
+    color: #fff;
+    background-image: -webkit-linear-gradient(top, #AE830B 0%, #EBBF47 100%);
+    background-image: linear-gradient(to bottom, #AE830B 0%, #EBBF47 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffAE830B', endColorstr='#ffEBBF47', GradientType=0);
+}
+
+.progress-bar-skill {
+    background-color: #a9a8a8 !important;
+    background-color: #DDA91A !important;
+}
+
+.services .icon {
+    text-shadow: 5px 5px 0 #876300;
+}
+
+#filter li {
+    border-top-color: #DDA91A;
+    border-bottom-color: #DDA91A;
+}
+
+#filter li.active,
+#filter li:hover {
+    background: #DDA91A;
+}
+
+.reference-item .reference {
+    background: #DDA91A;
+}
+
+#footer p.social a.external,
+#footer p.social a.email
+{
+    background-color: #DDA91A;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+    background-color: #eeeeee;
+    border-color: #DDA91A;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: #ffffff;
+    background-color: #DDA91A;
+}
+
+.navbar-brand {
+    color: #DDA91A;
+}
+
+.navbar-default .navbar-brand {
+    color: #DDA91A;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #AE830B;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #DDA91A;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #DDA91A;
+}
+
+a {
+    color: #DDA91A;  
+}
+
+a:hover,
+a:focus {
+    color: #AE830B;
+}
+
+.btn-primary {
+    color: #DDA91A;
+    border-color: #DDA91A;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color: #AE830B;
+    color: #DDA91A;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: #DDA91A;
+}
+
+.btn-primary .badge {
+    background-color: #DDA91A;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+    background-color: #DDA91A;
+    color: #eee;
+}
+
+.pager li > a,
+.pager li > span {
+    border-color: #DDA91A;
+}
+
+.pager li > a:hover,
+.pager li > a:focus {
+    background-color: #DDA91A;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    color: #DDA91A;
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+    color: #DDA91A;
+    background-color: #FFDA74;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    background-color: #DDA91A;
+    border-color: #DDA91A;
+}
+
+.text-primary {
+    color: #DDA91A;
+}
+a.text-primary:hover {
+    color: #AE830B;
+}
+
+.bg-primary {
+    background-color: #DDA91A;
+}
+
+a.bg-primary:hover {
+    background-color: #AE830B;
+}
+
+blockquote{
+    border-left-color: #DDA91A;
+}
+
+.blockquote-reverse,
+blockquote.pull-right {
+    border-right-color: #DDA91A;
+}
+
+.panel-primary {
+    border-color: #DDA91A;
+}
+
+.panel-primary > .panel-heading {
+    background-color: #DDA91A;
+    border-color: #DDA91A;
+}
+
+.panel-primary > .panel-heading + .panel-collapse .panel-body {
+    border-top-color: #DDA91A;
+}
+.panel-primary > .panel-footer + .panel-collapse .panel-body {
+    border-bottom-color: #DDA91A;
+}
+
+a.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge {
+    color: #DDA91A;
+}
+
+.tooltip-inner {
+    background-color: #DDA91A;
+}
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: #DDA91A;
+}
+
+.tooltip.top-left .tooltip-arrow {
+    border-top-color: #DDA91A;
+}
+
+.tooltip.top-right .tooltip-arrow {
+    border-top-color: #DDA91A;
+}
+
+.tooltip.right .tooltip-arrow {
+    border-right-color: #DDA91A;
+}
+
+.tooltip.left .tooltip-arrow {
+    border-left-color: #DDA91A;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #DDA91A;
+}
+
+.tooltip.bottom-left .tooltip-arrow {
+    border-bottom-color: #DDA91A;
+}
+
+.tooltip.bottom-right .tooltip-arrow {
+    border-bottom-color: #DDA91A;
+}
+
+.progress-bar {
+    background-color: #DDA91A;
+}
