@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-var colors = ['brown', 'red', 'yellow'];
+var colors = ['green', 'red', 'yellow', 'blue', 'brown'];
 
 $(document).ready(function() {
     var index = Math.floor((Math.random() * colors.length-1) + 1);

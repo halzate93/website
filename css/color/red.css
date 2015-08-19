@@ -8,106 +8,110 @@ and open the template in the editor.
     Author     : halzate93
 */
 
-// #B2340C
-// #DD491A
-// #E96D46
-// #902300
-// #FF9472
+// #84161C
+// #C42129
+// #D1232C
+// #440C0E
+// #AA1D24
 
-.navbar ul.nav > li > a:hover {
-    border-top-color: #DD491A;
+body{
+    
 }
 
 .navbar ul.nav > li.active > a,
 .navbar ul.nav > li.open > a {
-    border-top-color: #DD491A;
+    border-top-color: #C42129;
+}
+
+.navbar ul.nav > li > a:hover {
+    border-top: solid 5px #C42129;
 }
 
 .text-gradient {
-    background: #B2340C;
+    background: #84161C;
     color: #fff;
-    background-image: -webkit-linear-gradient(top, #B2340C 0%, #E96D46 100%);
-    background-image: linear-gradient(to bottom, #B2340C 0%, #E96D46 100%);
+    background-image: -webkit-linear-gradient(top, #84161C 0%, #D1232C 100%);
+    background-image: linear-gradient(to bottom, #84161C 0%, #D1232C 100%);
     background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffB2340C', endColorstr='#ffE96D46', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff84161C', endColorstr='#ffD1232C', GradientType=0);
 }
 
 .progress-bar-skill {
     background-color: #a9a8a8 !important;
-    background-color: #DD491A !important;
+    background-color: #C42129 !important;
 }
 
 .services .icon {
-    text-shadow: 5px 5px 0 #902300;
+    text-shadow: 5px 5px 0 #440C0E;
 }
 
 #filter li {
-    border-top-color: #DD491A;
-    border-bottom-color: #DD491A;
+    border-top-color: #C42129;
+    border-bottom-color: #C42129;
 }
 
 #filter li.active,
 #filter li:hover {
-    background: #DD491A;
+    background: #C42129;
 }
 
 .reference-item .reference {
-    background: #DD491A;
+    background: #C42129;
 }
 
 #footer p.social a.external,
 #footer p.social a.email
 {
-    background-color: #DD491A;
+    background-color: #C42129;
 }
 
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
     background-color: #eeeeee;
-    border-color: #DD491A;
+    border-color: #C42129;
 }
 
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
     color: #ffffff;
-    background-color: #DD491A;
+    background-color: #C42129;
 }
 
 .navbar-brand {
-    color: #DD491A;
+    color: #C42129;
 }
 
 .navbar-default .navbar-brand {
-    color: #DD491A;
+    color: #C42129;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: #B2340C;
+    color: #84161C;
     background-color: transparent;
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #DD491A;
+    border-color: #C42129;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #DD491A;
+    background-color: #C42129;
 }
 
 a {
-    color: #DD491A;  
+    color: #C42129;  
 }
 
 a:hover,
 a:focus {
-    color: #B2340C;
+    color: #84161C;
 }
 
 .btn-primary {
-    color: #DD491A;
-    border-color: #DD491A;
+    color: #C42129;
+    border-color: #C42129;
 }
 
 .btn-primary:hover,
@@ -115,8 +119,8 @@ a:focus {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #B2340C;
-    color: #DD491A;
+    border-color: #84161C;
+    color: #C42129;
 }
 
 .btn-primary.disabled,
@@ -134,42 +138,42 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #DD491A;
+    border-color: #C42129;
 }
 
 .btn-primary .badge {
-    background-color: #DD491A;
+    background-color: #C42129;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active {
-    background-color: #DD491A;
+    background-color: #C42129;
     color: #eee;
 }
 
 .pager li > a,
 .pager li > span {
-    border-color: #DD491A;
+    border-color: #C42129;
 }
 
 .pager li > a:hover,
 .pager li > a:focus {
-    background-color: #DD491A;
+    background-color: #C42129;
 }
 
 .pagination > li > a,
 .pagination > li > span {
-    color: #DD491A;
+    color: #C42129;
 }
 
 .pagination > li > a:hover,
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-    color: #DD491A;
-    background-color: #FF9472;
+    color: #C42129;
+    background-color: #AA1D24;
 }
 
 .pagination > .active > a,
@@ -178,91 +182,91 @@ fieldset[disabled] .btn-primary.active {
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
-    background-color: #DD491A;
-    border-color: #DD491A;
+    background-color: #C42129;
+    border-color: #C42129;
 }
 
 .text-primary {
-    color: #DD491A;
+    color: #C42129;
 }
 a.text-primary:hover {
-    color: #B2340C;
+    color: #84161C;
 }
 
 .bg-primary {
-    background-color: #DD491A;
+    background-color: #C42129;
 }
 
 a.bg-primary:hover {
-    background-color: #B2340C;
+    background-color: #84161C;
 }
 
 blockquote{
-    border-left-color: #DD491A;
+    border-left-color: #C42129;
 }
 
 .blockquote-reverse,
 blockquote.pull-right {
-    border-right-color: #DD491A;
+    border-right-color: #C42129;
 }
 
 .panel-primary {
-    border-color: #DD491A;
+    border-color: #C42129;
 }
 
 .panel-primary > .panel-heading {
-    background-color: #DD491A;
-    border-color: #DD491A;
+    background-color: #C42129;
+    border-color: #C42129;
 }
 
 .panel-primary > .panel-heading + .panel-collapse .panel-body {
-    border-top-color: #DD491A;
+    border-top-color: #C42129;
 }
 .panel-primary > .panel-footer + .panel-collapse .panel-body {
-    border-bottom-color: #DD491A;
+    border-bottom-color: #C42129;
 }
 
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-    color: #DD491A;
+    color: #C42129;
 }
 
 .tooltip-inner {
-    background-color: #DD491A;
+    background-color: #C42129;
 }
 
 .tooltip.top .tooltip-arrow {
-    border-top-color: #DD491A;
+    border-top-color: #C42129;
 }
 
 .tooltip.top-left .tooltip-arrow {
-    border-top-color: #DD491A;
+    border-top-color: #C42129;
 }
 
 .tooltip.top-right .tooltip-arrow {
-    border-top-color: #DD491A;
+    border-top-color: #C42129;
 }
 
 .tooltip.right .tooltip-arrow {
-    border-right-color: #DD491A;
+    border-right-color: #C42129;
 }
 
 .tooltip.left .tooltip-arrow {
-    border-left-color: #DD491A;
+    border-left-color: #C42129;
 }
 
 .tooltip.bottom .tooltip-arrow {
-    border-bottom-color: #DD491A;
+    border-bottom-color: #C42129;
 }
 
 .tooltip.bottom-left .tooltip-arrow {
-    border-bottom-color: #DD491A;
+    border-bottom-color: #C42129;
 }
 
 .tooltip.bottom-right .tooltip-arrow {
-    border-bottom-color: #DD491A;
+    border-bottom-color: #C42129;
 }
 
 .progress-bar {
-    background-color: #DD491A;
+    background-color: #C42129;
 }
