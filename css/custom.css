@@ -15,7 +15,13 @@
 
 #bird{
     position: relative;
-    top: 0px;
-    left: 300px;
-    width: 200px;
+    top: 10%;;
+    left: 60%;
+    width: 15%;
+}
+
+@media all and (max-width: 768px) {
+    .navbar .navbar-brand{
+        font-size:20px;
+    }
 }

@@ -8,12 +8,7 @@ BODY, HTML
 body {
     font-weight: 400;
 }
-html,
-body,
-#all {
-    height: 100%;
-    min-height: 100%;
-}
+
 /*
 
 =====================
@@ -162,16 +157,16 @@ INTRO
 #intro {
     position: relative;
     height: 100%;
-}
-#intro .item {
-    height: 100%;
     background: url('../img/home.jpg') center center no-repeat;
-    background-position: 0 -150px;
+    background-position: left bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     -webkit-backface-visibility: hidden;
+}
+#intro .item {
+    height: 100%;
 }
 #intro .item .logo {
     margin-bottom: 120px;
@@ -896,10 +891,11 @@ strong {
 /* navbar */
 .navbar {
     font-family: 'Roboto Slab', serif;
-    min-height: 80px;
+    min-height: 12%;
     margin-bottom: 30px;
     border-bottom: 1px solid transparent;
 }
+
 @media (min-width: 768px) {
     .navbar {
         border-radius: 0;
