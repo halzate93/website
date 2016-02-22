@@ -1,3 +1,5 @@
+require('es6-promise').polyfill();
+
 const gulp = require('gulp')
 const htmlmin = require('gulp-htmlmin')
 const imagemin = require('gulp-imagemin')
@@ -14,7 +16,7 @@ const gulpif = require('gulp-if')
 gulp.task('default', ['minify img', 'copy fonts', 'process'])
 
 gulp.task('minify img', function () {
-  gulp.src('img/*')
+  gulp.src('img/**/*')
     .pipe(imagemin({
       progressive: true,
       svgoPlugins: [{removeViewBox: false}],
@@ -28,7 +30,7 @@ gulp.task('minify img', function () {
 gulp.task('process', function () {
   gulp.src('*.html')
     .pipe(useref())
-    .pipe(gulpif('*.css', minifyCss({processImport: false})))
+    .pipe(gulpif('*.css', minifyCss()))
     .pipe(gulpif('*.js', minifyJs()))
     .pipe(gulpif('*.html', htmlmin({collapseWhitespace: true})))
     .pipe(gulp.dest('dist/'))
