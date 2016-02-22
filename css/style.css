@@ -280,7 +280,6 @@ WORKS / REFERENCES
 
 #filter li.active a,
 #filter li:hover a {
-    color: #fff;
     text-decoration: none;
 }
 #references-masonry {
@@ -409,9 +408,7 @@ CONTACT
 .contact {
     background: #fff;
 }
-.contact form {
-    margin-top: 40px;
-}
+
 .contact form input,
 .contact form textarea {
     margin-top: 20px;
@@ -1021,9 +1018,6 @@ hr {
     border-radius: 0;
 }
 
-.btn-primary {
-    background-color: #ffffff;
-}
 
 .btn-primary:active,
 .btn-primary.active,

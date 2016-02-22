@@ -1,7 +1,7 @@
 /* your styles go here */
 
-#about .linkedin,
-#about .tumblr{
+#about .linkedin i,
+#about .tumblr i{
     border: 1px solid;
     display: inline-block;
     width: 25px;
