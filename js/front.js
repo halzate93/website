@@ -10,10 +10,8 @@ $(function () {
     utils();
     sliding();
     contactForm();
-    //map();
     counters();
     parallax();
-    demo();
 });
 
 $(window).load(function () {
