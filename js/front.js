@@ -40,37 +40,6 @@ $(window).resize(function () {
 
 
 /* =========================================
- *  for demo purpose only - can be deleted 
- *  =======================================*/
-
-function demo() {
-
-    if ($.cookie("theme_csspath")) {
-	$('link#theme-stylesheet').attr("href", $.cookie("theme_csspath"));
-    }
-
-    $("#colour").change(function () {
-
-	if ($(this).val !== '') {
-
-	    var colour = $(this).val();
-	    var introImage = $('body').find('#intro .item');
-
-	    introImage.removeClass();
-	    introImage.addClass('item');
-	    introImage.addClass(colour);
-
-
-	    var theme_csspath = 'css/style.' + $(this).val() + '.css';
-	    $('link#theme-stylesheet').attr("href", theme_csspath);
-	    $.cookie("theme_csspath", theme_csspath, {expires: 365, path: '/'});
-	}
-
-	return false;
-    });
-}
-
-/* =========================================
  *  animations
  *  =======================================*/
 
@@ -109,7 +78,7 @@ function animations() {
 }
 
 /* =========================================
- * sliding 
+ * sliding
  *  =======================================*/
 
 function sliding() {
@@ -125,7 +94,7 @@ function sliding() {
 }
 
 /* =========================================
- * sliders 
+ * sliders
  *  =======================================*/
 
 function sliders() {
@@ -148,7 +117,7 @@ function sliders() {
 }
 
 /* =========================================
- * counters 
+ * counters
  *  =======================================*/
 
 function counters() {
@@ -161,17 +130,17 @@ function counters() {
 }
 
 /* =========================================
- * parallax 
+ * parallax
  *  =======================================*/
 
 function parallax() {
 
     $('.text-parallax').parallax("50%", 0.1);
-    
+
 }
 
 /* =========================================
- *  masonry 
+ *  masonry
  *  =======================================*/
 
 function masonry() {
@@ -195,7 +164,7 @@ function masonry() {
 }
 
 /* =========================================
- * filter 
+ * filter
  *  =======================================*/
 
 $('#filter a').click(function (e) {
@@ -230,7 +199,7 @@ $('#filter a').click(function (e) {
 });
 
 /* =========================================
- *  open reference 
+ *  open reference
  *  =======================================*/
 
 $('.reference-item').click(function (e) {
@@ -319,7 +288,7 @@ $('#detail .close').click(function () {
 })
 
 /* =========================================
- * full screen intro 
+ * full screen intro
  *  =======================================*/
 
 function fullScreenContainer() {
@@ -341,7 +310,7 @@ function fullScreenContainer() {
 }
 
 /* =========================================
- *  map 
+ *  map
  *  =======================================*/
 
 function map() {
@@ -445,7 +414,7 @@ function waypointsRefresh() {
 function contactForm() {
     $("#contact-form").submit(function () {
 
-	var url = "contact"; // the script where you handle the form input.
+	var url = "api.hectoralzate.co/contact"; // the script where you handle the form input.
 
 	$.ajax({
 	    type: "POST",
