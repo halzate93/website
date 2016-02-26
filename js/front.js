@@ -443,7 +443,6 @@ function makeJsonFromForm(form) {
   form = form.serializeArray();
   var json = { };
   form.forEach(function(element){
-    console.log(element.name);
     json[element.name] = element.value;
   });
   return json;
