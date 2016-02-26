@@ -412,22 +412,39 @@ function waypointsRefresh() {
 function contactForm() {
     $("#contact-form").submit(function () {
 
-	var url = "http://api.hectoralzate.co/contact"; // the script where you handle the form input.
+	var url = "https://formspree.io/halzate93@gmail.com"; // the script where you handle the form input.
 
 	$.ajax({
 	    type: "POST",
 	    url: url,
-	    data: $(this).serialize(), // serializes the form's elements.
+	    data: makeJsonFromForm($(this)), // serializes the form's elements.
 	    success: function (data)
 	    {
-		var messageAlert = 'alert-' + data.type;
-		var messageText = data.message;
-		var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable animated bounceIn"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
-		if (messageAlert && messageText) {
-		    $('#contact-form').find('.messages').html(alertBox);
-		}
-	    }
+          showContactResult('Success', "Thanks!, I'll get back to you soon.");
+	    },
+      error: function ()
+      {
+          showContactResult('Error', "Couldn't send the mail request, please send it to halzate93@gmail.com");
+      },
+      dataType: "json"
 	});
 	return false; // avoid to execute the actual submit of the form.
     });
+}
+
+function showContactResult(messageAlert, messageText){
+  var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable animated bounceIn"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
+  if (messageAlert && messageText) {
+      $('#contact-form').find('.messages').html(alertBox);
+  }
+}
+
+function makeJsonFromForm(form) {
+  form = form.serializeArray();
+  var json = { };
+  form.forEach(function(element){
+    console.log(element.name);
+    json[element.name] = element.value;
+  });
+  return json;
 }
