@@ -260,6 +260,11 @@ ABOUT
 {
   border-color: white;
 }
+
+#about .image
+{
+  margin-top: 50px;
+}
 /*
 
 =====================
