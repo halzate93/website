@@ -1,0 +1,37 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A simple website for my portfolio",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "es6-promise": "^4.0.5",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0"
+  },
+  "devDependencies": {
+    "es6-promise": "^4.0.5",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-uglify": "^2.0.1",
+    "gulp-useref": "^3.1.2",
+    "imagemin-pngquant": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halzate93/website.git"
+  },
+  "keywords": [
+    "portfolio",
+    "website"
+  ],
+  "author": "halzate93",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halzate93/website/issues"
+  },
+  "homepage": "https://github.com/halzate93/website#readme"
+}

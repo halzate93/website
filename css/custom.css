@@ -1,18 +1,4 @@
 /* your styles go here */
-
-#about .linkedin i,
-#about .tumblr i{
-    border: 1px solid;
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    padding: 2.5px;
-    border-radius: 25px;
-    line-height: 20px;
-    vertical-align: middle;
-    text-align: center;
-}
-
 #bird{
     position: relative;
     top: 10%;;
@@ -24,4 +10,16 @@
     .navbar .navbar-brand{
         font-size:20px;
     }
+}
+
+.btn-primary
+{
+  background-color: #282A2A;
+  border-color: #282A2A;
+}
+
+.btn-primary:hover
+{
+  background-color: #595D5D;
+  border-color: #282A2A;
 }

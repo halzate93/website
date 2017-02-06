@@ -133,7 +133,7 @@ function counters() {
 
 function parallax() {
 
-    $('.text-parallax').parallax("50%", 0.1);
+    $('.text-parallax').parallax("50%", 0.0);
 
 }
 
