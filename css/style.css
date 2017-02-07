@@ -349,9 +349,10 @@ WORKS / REFERENCES
     -webkit-box-sizing: 'border-box';
     -moz-box-sizing: 'border-box';
     box-sizing: 'border-box';
-    padding: 20px;
+    padding: 10px;
     color: #fff;
     text-align: center;
+    font-size: 15px;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
